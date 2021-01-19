@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@drawable/iscgradient"
+android:orientation="vertical">
+
+<ImageView
+    android:layout_width="fill_parent"
+    android:layout_height="200.0dp"
+    android:layout_marginBottom="24.0dp"
+    android:contentDescription="@string/app_name"
+    android:scaleType="centerCrop"
+    android:src="@drawable/paper" />
+
+<ScrollView
+    android:id="@+id/scroll"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn11"
+            style="@android:style/Widget.Holo.Button.Borderless.Small"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24.0dp"
+            android:layout_marginLeft="8.0dp"
+            android:layout_marginRight="8.0dp"
+            android:background="@android:color/holo_blue_bright"
+            android:drawableLeft="@drawable/paperic"
+            android:text="ISC 2018"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn12"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24.0dp"
+            android:layout_marginLeft="8.0dp"
+            android:layout_marginRight="8.0dp"
+            android:background="#ff627f0b"
+            android:drawableLeft="@drawable/paperic"
+            android:text="ISC 2017"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn13"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24.0dp"
+            android:layout_marginLeft="8.0dp"
+            android:layout_marginRight="8.0dp"
+            android:background="@android:color/holo_orange_light"
+            android:text="ISC 2016"
+            android:textColor="@android:color/holo_green_dark"
+            android:drawableLeft="@drawable/paperic"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn14"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24.0dp"
+            android:layout_marginLeft="8.0dp"
+            android:layout_marginRight="8.0dp"
+            android:background="#ff128fa3"
+            android:text="ISC 2015"
+            android:textColor="@android:color/holo_red_dark"
+            android:drawableLeft="@drawable/paperic"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn15"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24.0dp"
+            android:layout_marginLeft="8.0dp"
+            android:layout_marginRight="8.0dp"
+            android:background="#ffae7503"
+            android:text="ISC 2014"
+            android:textColor="@android:color/holo_blue_light"
+            android:drawableLeft="@drawable/paperic"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn16"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24.0dp"
+            android:layout_marginLeft="8.0dp"
+            android:layout_marginRight="8.0dp"
+            android:background="@android:color/holo_green_light"
+            android:text="ISC 2013"
+            android:textColor="@android:color/holo_red_light"
+            android:drawableLeft="@drawable/paperic"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn17"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24.0dp"
+            android:layout_marginLeft="8.0dp"
+            android:layout_marginRight="8.0dp"
+            android:background="@android:color/holo_purple"
+            android:text="ISC 2012"
+            android:textColor="@android:color/holo_blue_light"
+            android:drawableLeft="@drawable/paperic"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn18"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24.0dp"
+            android:layout_marginLeft="8.0dp"
+            android:layout_marginRight="8.0dp"
+            android:background="@android:color/holo_blue_dark"
+            android:text="ISC 2011"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp"
+            android:drawableLeft="@drawable/paperic"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn19"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24.0dp"
+            android:layout_marginLeft="8.0dp"
+            android:layout_marginRight="8.0dp"
+            android:background="#ff5b169f"
+            android:text="ISC 2010"
+            android:textColor="@android:color/holo_red_dark"
+            android:drawableLeft="@drawable/paperic"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn110"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24.0dp"
+            android:layout_marginLeft="8.0dp"
+            android:layout_marginRight="8.0dp"
+            android:background="#ab7208"
+            android:text="ISC 2009"
+            android:textColor="@android:color/holo_purple"
+            android:drawableLeft="@drawable/paperic"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>

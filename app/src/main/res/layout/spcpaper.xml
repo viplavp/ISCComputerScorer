@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/iscgradient"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="200.0dp"
+        android:layout_marginBottom="24.0dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        android:src="@drawable/spc" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn21"
+                style="@android:style/Widget.Holo.Button.Borderless.Small"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24.0dp"
+                android:layout_marginLeft="8.0dp"
+                android:layout_marginRight="8.0dp"
+                android:background="#ff319aaa"
+                android:drawableLeft="@drawable/sppaperic"
+                android:nextFocusDown="@android:drawable/btn_dropdown"
+                android:shadowColor="@android:color/transparent"
+                android:text="PAPER 1"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn22"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24.0dp"
+                android:layout_marginLeft="8.0dp"
+                android:layout_marginRight="8.0dp"
+                android:background="@android:color/holo_red_dark"
+                android:text="PAPER 2"
+                android:textColor="@android:color/background_dark"
+                android:drawableLeft="@drawable/sppaperic"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn23"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24.0dp"
+                android:layout_marginLeft="8.0dp"
+                android:layout_marginRight="8.0dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="PAPER 3"
+                android:textColor="@android:color/holo_green_dark"
+                android:drawableLeft="@drawable/sppaperic"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn24"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24.0dp"
+                android:layout_marginLeft="8.0dp"
+                android:layout_marginRight="8.0dp"
+                android:background="@android:color/holo_green_dark"
+                android:drawableLeft="@drawable/sppaperic"
+                android:text="PAPER 4"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn25"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24.0dp"
+                android:layout_marginLeft="8.0dp"
+                android:layout_marginRight="8.0dp"
+                android:background="#ff6a3684"
+                android:text="PAPER 5"
+                android:textColor="@android:color/holo_orange_dark"
+                android:drawableLeft="@drawable/sppaperic"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
